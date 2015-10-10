@@ -24,13 +24,13 @@
 import mcpi.minecraft as minecraft
 mc = minecraft.Minecraft.create()
 
-# Wysyłamy testowy komunikat do serwera Minecraft 
-mc.postToChat("Tutaj Kamil - udało mi się! :-)")
+# now let's sent message to chat: 
+mc.postToChat("Hi, I'm Kamil, and I know how to code :-)")
 
 # now loops!
 
 for i in range(1, 10, 1): #start-stop-step
-	mc.postToChat("Hey hey!")
+	mc.postToChat("Hey hey x"+str(i))
 
 # now we will build a tower!
 # but first where are we?
