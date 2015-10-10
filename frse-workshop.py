@@ -1,26 +1,33 @@
-Kamil Sijko kamil@coderdojo.org.pl
-Wojtek Gembalczyk w.gembalczyk@coderdojo.org.pl
+# Kamil Sijko kamil@coderdojo.org.pl
+# Wojtek Gembalczyk w.gembalczyk@coderdojo.org.pl
 
-books:
-teacher ed. https://arghbox.files.wordpress.com/2013/06/teacheredition.pdf
-student ed. https://arghbox.files.wordpress.com/2013/06/minecraftbook.pdf
-chetsheet: https://arghbox.files.wordpress.com/2013/06/table.pdf
+# books:
+# teacher ed. https://arghbox.files.wordpress.com/2013/06/teacheredition.pdf
+# student ed. https://arghbox.files.wordpress.com/2013/06/minecraftbook.pdf
+# chetsheet: https://arghbox.files.wordpress.com/2013/06/table.pdf
 
-SSID:		frselte3
-password:	#frselte#
+# SSID:		frselte3
+# password:	#frselte#
 
-Windows: 	putty for SSH ()
-			Notepad++ for code
+# Windows: 	putty for SSH ()
+# 			Notepad++ for code
 			
-RPi IP:		192.168.1.3
-user:		pi
-password:	raspberry
+# RPi IP:		192.168.1.3 # to check RPi IP type hostname -I in RPi's terminal
+# user:		pi
+# password:	raspberry
 
-command:	python
+# command:	python
 
-https://github.com/CoderDojoPL/minecraft-python
+# repo: https://github.com/CoderDojoPL/minecraft-python
 
-now loops!
+# those are preliminary steps to start "minecrafting" in python :-)
+import mcpi.minecraft as minecraft
+mc = minecraft.Minecraft.create()
+
+# Wysyłamy testowy komunikat do serwera Minecraft 
+mc.postToChat("Tutaj Kamil - udało mi się! :-)")
+
+# now loops!
 
 for i in range(1, 10, 1): #start-stop-step
 	mc.postToChat("Hey hey!")
