@@ -2,9 +2,9 @@
 # Wojtek Gembalczyk w.gembalczyk@coderdojo.org.pl
 
 # books:
-# teacher ed. https://arghbox.files.wordpress.com/2013/06/teacheredition.pdf
-# student ed. https://arghbox.files.wordpress.com/2013/06/minecraftbook.pdf
-# chetsheet: https://arghbox.files.wordpress.com/2013/06/table.pdf
+# teacher ed.	https://arghbox.files.wordpress.com/2013/06/teacheredition.pdf
+# student ed.	https://arghbox.files.wordpress.com/2013/06/minecraftbook.pdf
+# chetsheet:	https://arghbox.files.wordpress.com/2013/06/table.pdf
 
 # SSID:		frselte3
 # password:	#frselte#
@@ -12,7 +12,7 @@
 # Windows: 	putty for SSH ()
 # 			Notepad++ for code
 			
-# RPi IP:		192.168.1.3 # to check RPi IP type hostname -I in RPi's terminal
+# RPi IP:	192.168.1.3 # to check RPi IP type hostname -I in RPi's terminal
 # user:		pi
 # password:	raspberry
 
